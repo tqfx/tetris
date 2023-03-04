@@ -26,8 +26,8 @@ tetris_shape const tetris_shape_B = {
 tetris_shape const tetris_shape_C = {
     (unsigned int[][2]){
         // clang-format off
-        {0, 0}, {1, 0}, {2, 0},
         {0, 0}, {0, 1}, {0, 2},
+        {0, 0}, {1, 0}, {2, 0},
         // clang-format on
     },
     3,
@@ -38,9 +38,9 @@ tetris_shape const tetris_shape_C = {
 tetris_shape const tetris_shape_D = {
     (unsigned int[][2]){
         // clang-format off
-        {0, 0}, {1, 0}, {1, 1},
         {0, 0}, {0, 1}, {1, 0},
         {0, 0}, {0, 1}, {1, 1},
+        {0, 0}, {1, 0}, {1, 1},
         {0, 1}, {1, 0}, {1, 1},
         // clang-format on
     },
@@ -52,8 +52,8 @@ tetris_shape const tetris_shape_D = {
 tetris_shape const tetris_shape_I = {
     (unsigned int[][2]){
         // clang-format off
-        {0, 0}, {1, 0}, {2, 0}, {3, 0},
         {0, 0}, {0, 1}, {0, 2}, {0, 3},
+        {0, 0}, {1, 0}, {2, 0}, {3, 0},
         // clang-format on
     },
     4,
@@ -64,10 +64,10 @@ tetris_shape const tetris_shape_I = {
 tetris_shape const tetris_shape_J = {
     (unsigned int[][2]){
         // clang-format off
-        {0, 1}, {1, 1}, {2, 1}, {2, 0},
-        {0, 0}, {1, 0}, {1, 1}, {1, 2},
-        {0, 0}, {0, 1}, {1, 0}, {2, 0},
         {0, 0}, {0, 1}, {0, 2}, {1, 2},
+        {0, 0}, {0, 1}, {1, 0}, {2, 0},
+        {0, 0}, {1, 0}, {1, 1}, {1, 2},
+        {0, 1}, {1, 1}, {2, 1}, {2, 0},
         // clang-format on
     },
     4,
@@ -78,9 +78,9 @@ tetris_shape const tetris_shape_J = {
 tetris_shape const tetris_shape_L = {
     (unsigned int[][2]){
         // clang-format off
-        {0, 0}, {1, 0}, {2, 0}, {2, 1},
         {0, 0}, {0, 1}, {0, 2}, {1, 0},
         {0, 0}, {0, 1}, {1, 1}, {2, 1},
+        {0, 0}, {1, 0}, {2, 0}, {2, 1},
         {0, 2}, {1, 0}, {1, 1}, {1, 2},
         // clang-format on
     },
@@ -103,8 +103,8 @@ tetris_shape const tetris_shape_O = {
 tetris_shape const tetris_shape_S = {
     (unsigned int[][2]){
         // clang-format off
-        {0, 1}, {0, 2}, {1, 0}, {1, 1},
         {0, 0}, {1, 0}, {1, 1}, {2, 1},
+        {0, 1}, {0, 2}, {1, 0}, {1, 1},
         // clang-format on
     },
     4,
@@ -116,9 +116,9 @@ tetris_shape const tetris_shape_T = {
     (unsigned int[][2]){
         // clang-format off
         {0, 0}, {0, 1}, {0, 2}, {1, 1},
+        {0, 0}, {1, 0}, {2, 0}, {1, 1},
         {0, 1}, {1, 0}, {1, 1}, {2, 1},
         {0, 1}, {1, 0}, {1, 2}, {1, 1},
-        {0, 0}, {1, 0}, {2, 0}, {1, 1},
         // clang-format on
     },
     4,
@@ -141,10 +141,10 @@ tetris_shape const tetris_shape_Z = {
 tetris_shape const tetris_shape_U = {
     (unsigned int[][2]){
         // clang-format off
-        {0, 0}, {0, 2}, {1, 0}, {1, 1}, {1, 2},
-        {0, 0}, {0, 1}, {1, 0}, {2, 0}, {2, 1},
         {0, 0}, {0, 1}, {0, 2}, {1, 0}, {1, 2},
+        {0, 0}, {0, 1}, {1, 0}, {2, 0}, {2, 1},
         {0, 0}, {0, 1}, {1, 1}, {2, 0}, {2, 1},
+        {0, 0}, {0, 2}, {1, 0}, {1, 1}, {1, 2},
         // clang-format on
     },
     5,

@@ -25,7 +25,7 @@ typedef struct tetris_shape_t {
     unsigned int const (*point)[2];
     tetris_shape const *shape;
     unsigned int step;
-    int const _R0;
+    int const _r0;
 } tetris_shape_t;
 
 #if defined(__cplusplus)
