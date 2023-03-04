@@ -7,6 +7,10 @@ typedef struct tetris_shape {
     short const name;
 } tetris_shape;
 
+extern tetris_shape const tetris_shape_A;
+extern tetris_shape const tetris_shape_B;
+extern tetris_shape const tetris_shape_C;
+extern tetris_shape const tetris_shape_D;
 extern tetris_shape const tetris_shape_I;
 extern tetris_shape const tetris_shape_J;
 extern tetris_shape const tetris_shape_L;
@@ -14,12 +18,14 @@ extern tetris_shape const tetris_shape_O;
 extern tetris_shape const tetris_shape_S;
 extern tetris_shape const tetris_shape_T;
 extern tetris_shape const tetris_shape_Z;
+extern tetris_shape const tetris_shape_U;
+extern tetris_shape const tetris_shape_X;
 
 typedef struct tetris_shape_t {
     unsigned int const (*point)[2];
     tetris_shape const *shape;
     unsigned int step;
-    int const _0;
+    int const _R0;
 } tetris_shape_t;
 
 #if defined(__cplusplus)
